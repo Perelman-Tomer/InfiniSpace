@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InfiniSpace</string>
+    <string name="scoretxt">"ניקוד: "</string>
+    <string name="bestscore">"הטוב ביותר: "</string>
+    <string name="tapstart">הקש כדי להתחיל</string>
+    <string name="gameover">המשחק נגמר!</string>
+    <string name="restart">התחל מחדש</string>
+    <string name="topten">התוצאות הגבוהות</string>
+    <string name="exit">יציאה מהמשחק</string>
+    <string name="runningtime">"זמן: "</string>
+    <string name="runninglevel">"רמה: "</string>
+    <string name="infoalert">אינפיניספייס הוא משחק עבור כולם, ובמיוחד עבור אלו אשר אוהבים את החלל האינסופי. אספו את הכדורים המוזהבים והמנעו מהאסטוראידים אשר עלולים לפגוע בחללית שלכם. החללית ממוגנת ולכן יידרשו 4 פגיעות של אסטוראידים על מנת שהחללית תהרס.</string>
+    <string name="got_it">הבנתי</string>
+    <string name="info_title">מידע:</string>
+</resources>

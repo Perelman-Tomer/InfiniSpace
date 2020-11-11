@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pause_layout"
+    android:orientation="vertical"
+    android:background="@drawable/bggray"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/exit_btm"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:background="@drawable/homebtn"
+            android:layout_margin="10dp"
+            android:onClick="backHome"
+            />
+
+        <Button
+            android:id="@+id/pause_sound_btn"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:background="@drawable/musicon"
+            android:layout_margin="10dp"
+            android:onClick="stopMusic"
+            />
+
+        <Button
+            android:id="@+id/mute_sfx_btn"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:background="@drawable/sfxbt"
+            android:onClick="stopSFX" />
+
+        <Button
+            android:id="@+id/restart_btn"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_margin="10dp"
+            android:background="@drawable/retrybtn"
+            android:onClick="menuRestartGame" />
+
+        <Button
+            android:id="@+id/resume_btn"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:onClick="resumeCurrent"
+            android:background="@drawable/playbtn"
+            android:layout_margin="10dp"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

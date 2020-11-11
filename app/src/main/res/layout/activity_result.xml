@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bggray">
+
+    <ImageView
+        android:layout_width="972px"
+        android:layout_height="116px"
+        android:background="@drawable/gameover"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/resultsTV"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Score: 300"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bestresultTV"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/exit_btm"
+        android:layout_width="200px"
+        android:layout_marginTop="10dp"
+        android:layout_height="200px"
+        android:onClick="backHome"
+        android:background="@drawable/homebtn"
+        android:layout_marginEnd="10dp"
+        />
+
+
+
+    <Button
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/resume_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:background="@drawable/scorebtn"
+        android:layout_marginEnd="10dp"
+        android:onClick="highScores"
+        />
+
+    <Button
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/retryB"
+        android:onClick="retry"
+        android:background="@drawable/retrybtn"
+        android:layout_marginEnd="10dp"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
