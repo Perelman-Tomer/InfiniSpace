@@ -1,16 +1,16 @@
 package com.example.infinispace;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.example.infititest.R;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ public class ScorerAdapter extends ArrayAdapter<Scorer> {
     private Context mContext;
     private List<Scorer> highscores=new ArrayList<>();
 
-    public ScorerAdapter(@NonNull Context context, @LayoutRes ArrayList<Scorer> list){
+    public ScorerAdapter(@NonNull Context context, @SuppressLint("SupportAnnotationUsage") @LayoutRes ArrayList<Scorer> list){
         super(context,0,list);
         mContext =context;
         highscores=list;

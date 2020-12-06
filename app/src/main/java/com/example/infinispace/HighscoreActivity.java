@@ -1,17 +1,13 @@
 package com.example.infinispace;
 
 
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ListView;
 
-import com.example.infititest.R;
-import com.example.infititest.Scorer;
-import com.example.infititest.ScorerAdapter;
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 

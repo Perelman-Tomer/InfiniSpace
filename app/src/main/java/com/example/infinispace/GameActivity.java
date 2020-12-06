@@ -27,8 +27,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.infititest.R;
-
 import java.util.Timer;
 import java.util.TimerTask;
 

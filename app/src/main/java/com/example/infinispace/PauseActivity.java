@@ -5,16 +5,12 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
-
-import com.example.infititest.R;
-import com.example.infititest.SoundPlayer;
 
 
 public class PauseActivity extends GameActivity {

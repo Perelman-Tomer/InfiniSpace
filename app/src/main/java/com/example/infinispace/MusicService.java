@@ -7,8 +7,6 @@ import android.os.Binder;
 import android.os.IBinder;
 import android.widget.Toast;
 
-import com.example.infititest.R;
-
 public class MusicService extends Service implements MediaPlayer.OnErrorListener {
 
     private final IBinder mBinder = new ServiceBinder();

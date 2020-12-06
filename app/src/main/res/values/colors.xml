@@ -4,5 +4,9 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#2252F0</color>
     <color name="transparent">#00000000</color>
+    <color name="purple_200">#800080</color>
+    <color name="purple_700">#4E014E</color>
+    <color name="teal_200">#008080</color>
+
 
 </resources>
