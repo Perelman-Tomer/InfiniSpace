@@ -1,5 +1,8 @@
 # InfiniSpace - Java - Android Game
 
+![5fff040eb0907407958719](https://user-images.githubusercontent.com/69638284/104465496-c27b3880-55bc-11eb-95c6-41f407c9e36f.gif)
+
+
 ## instructions
 ### A. Collect the Golden-balls.
 ### B. Avoid all the obstacles. (The spaceship can be damaged three times).
