@@ -11,6 +11,10 @@
 ## --------------------------------------------------
 
 ## Previews from the game:
+
+![IS_JAVA](https://user-images.githubusercontent.com/69638284/104483806-33c4e680-55d1-11eb-8f71-decf7366a4ef.gif)
+
+
 ### Loading the game:
 ![InfiniSpace-Loading](https://user-images.githubusercontent.com/69638284/104463396-644d5600-55ba-11eb-98b3-c1930f9006fc.PNG)
 
